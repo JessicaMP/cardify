@@ -93,8 +93,15 @@ primero necesitarás enlazar el siguiente archivo a tu index.html:
 
 ### Global (navegador)
 
+Antes de trabajar en el uso del plugin cardify se tiene que implementar el script de jQuery 
+para que pueda funcionar correctamente.
+
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+```
+Y localmente en el html de su pagina implementar el plugin
+
+```html
 <script src="path-to-cardify.js"></script>
 ```
 
