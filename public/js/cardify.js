@@ -23,11 +23,11 @@
         figure.hover(function () {
           $(searchImage[i]).css({ 'visibility': 'hidden' });
           $(searchImage[i]).animate(4000);
-          figcaption.css({ 'font-size': '30px', 'transform': 'translateY(-300%)', 'text-align': 'center' });
+          figcaption.css({ 'transform': 'translateY(-300%)', 'text-align': 'center' });
         }, function () {
           $(searchImage[i]).css({ 'visibility': 'visible' });
           $(searchImage[i]).animate(4000);
-          figcaption.css({ 'transform': 'translateY(0%)', 'font-size': '20px' });
+          figcaption.css({ 'transform': 'translateY(0%)' });
         });
       };
 
